@@ -1,0 +1,31 @@
+{
+  "name": "a02-functions-stevenamartin",
+  "version": "0.0.1",
+  "description": "galosh.js",
+  "main": "galosh.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a02-functions-StevenAMartin.git"
+  },
+  "keywords": [
+    "Weather"
+  ],
+  "author": "@StevenAMartin",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a02-functions-StevenAMartin/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-StevenAMartin#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.40",
+    "node-fetch": "^3.3.0"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
+  }
+}
