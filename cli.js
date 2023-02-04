@@ -28,7 +28,7 @@ if (args.e && args.w){
 const longitude = (args.e ? args.e : -args.w);
 
 if (isNaN(latitude) || isNaN(longitude)) {
-    console.log("Must specify both LATITUDE and LONGITUDE");
+    console.log("Latitude must be in range");
     process.exit(1)
 }
 
