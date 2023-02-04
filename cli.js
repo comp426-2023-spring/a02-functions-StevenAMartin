@@ -27,10 +27,10 @@ if (args.e && args.w){
 } 
 const longitude = (args.e ? args.e : -args.w);
 
-if (isNaN(latitude) || isNaN(longitude)) {
-    console.log("Latitude must be in range");
-    process.exit(1)
-}
+//if (isNaN(latitude) || isNaN(longitude)) {
+//    console.log("Must specify both LATITUDE and LONGITUDE");
+//    process.exit(1)
+//}
 
 const timezone = (args.t ? args.t : moment.tz.guess());
 
